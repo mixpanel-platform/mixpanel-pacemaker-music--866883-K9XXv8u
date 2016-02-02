@@ -97,7 +97,7 @@
         <div id="dates"></div>
         <div class="events">
             <div class="label">Funnel Steps:</div>
-            <input id="event_list" value="First Launch,Signup,Connect Music Library">
+            <input id="event_list" value="New Mix,Save Mix,Share Mix">
             <div class="label">Alt Path Length:</div>
             <input id="path_length" value="3">
             <div id="run">RUN</div>
@@ -382,7 +382,7 @@
     }
     </script>
     <script type="text/cq" id="cq">
-    var EVENT_LIST = params.event_list || ["First Launch, Signup, Connect Music Library"];
+    var EVENT_LIST = params.event_list || ['New Mix', 'Save Mix', 'Share Mix'];
     var PATH_LENGTH =  params.path_length || 3;
     
     function main() {
